@@ -1,0 +1,88 @@
+PODS:
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - MaterialComponents/AnimationTiming (107.1.0)
+  - MaterialComponents/Availability (107.1.0)
+  - MaterialComponents/Buttons (107.1.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Dialogs (107.1.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Elevation (107.1.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (107.1.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (107.1.0)
+  - MaterialComponents/private/Color (107.1.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/KeyboardWatcher (107.1.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (107.1.0)
+  - MaterialComponents/Ripple (107.1.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (107.1.0)
+  - MaterialComponents/ShadowLayer (107.1.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (107.1.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Typography (107.1.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - Yoga (1.14.0)
+  - YogaKit (1.18.1):
+    - Yoga (~> 1.14)
+
+DEPENDENCIES:
+  - IGListKit (~> 4.0.0)
+  - MaterialComponents/Buttons
+  - MaterialComponents/Dialogs
+  - YogaKit (~> 1.18.1)
+
+SPEC REPOS:
+  trunk:
+    - IGListDiffKit
+    - IGListKit
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - Yoga
+    - YogaKit
+
+SPEC CHECKSUMS:
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  MaterialComponents: 12ba01c537f9728d9cd739c6c46888abce8198d4
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
+  YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
+
+PODFILE CHECKSUM: 3f8fe3e23d9337379e9586b188a37a9b9e68bc90
+
+COCOAPODS: 1.8.4
